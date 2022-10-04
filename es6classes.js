@@ -1,4 +1,5 @@
-class Person{
+// Named Export
+export class Person{
 
     firstName;
     lastName;
@@ -21,10 +22,12 @@ class Person{
     }
 }
 
-let p = new Person('Anup','Kini'); 
-console.log(p);
+export class Employee{
 
-p.greetPerson();
-p.getFullName(); // Normal member function
+}
 
-Person.staticMethod(); //Calling static method
+export function hello(){
+
+}
+
+export const PI = 3.14;

@@ -1,14 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Counter from './Counter'
+import Message from './Message'
 
 function App() {
-  return (
-    <div className="App">
-    <h1>Hello This is my first React app . </h1>  
-    <h1>I am learning react</h1>
-    </div>
-  );
+    return (
+        <div>
+           {/* <Message/> */}
+           <Counter/>
+        </div>
+    )
 }
 
-export default App;
+export default App
